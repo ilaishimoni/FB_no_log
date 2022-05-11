@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".LoggedIn">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/identifier"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#5F6368"
+        android:fontFamily="@font/anton"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:onClick="users"
+        android:text="Show/Edit Users"
+        android:textSize="20sp"
+        app:backgroundTint="#5F6368" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:onClick="meals"
+        android:text="Add/Show/Edit Meals"
+        android:textSize="20sp"
+        app:backgroundTint="#5F6368" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:onClick="company"
+        android:text="Add/show/Edit Company"
+        android:textSize="20sp"
+        app:backgroundTint="#5F6368" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:onClick="show"
+        android:text="Show Orders"
+        android:textSize="20sp"
+        app:backgroundTint="#5F6368" />
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".editcompany">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        tools:context=".addshowcompany">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".meals">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".companies">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/idddd"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#5F6368"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:text="                        TextView                          "
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/Tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:hint="Tax Number"
+                        android:inputType="number"
+                        android:textColor="#000000"
+                        android:textColorHint="#FFFFFF"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/Company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:hint="Comapny Name"
+                        android:inputType="textPersonName"
+                        android:textColorHint="#FFFFFF"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/Primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:hint="Primary Phone"
+                        android:inputType="number"
+                        android:textColorHint="#FFFFFF"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/Secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:hint="Secondary Phone"
+                        android:inputType="number"
+                        android:textColorHint="#FFFFFF"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/anton"
+                        android:onClick="update"
+                        android:text="        Update      "
+                        app:backgroundTint="#16811A" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
